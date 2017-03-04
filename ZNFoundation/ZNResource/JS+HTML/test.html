@@ -1,0 +1,62 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<script type="text/javascript">
+    function eningPayCallback(result) {
+        console.log("eningPayCallback------"+result);
+        document.getElementById("native_info").innerHTML = result.code;
+    }
+
+    function eningLoginCallback(result) {
+        console.log("eningLoginCallback------"+result);
+        document.getElementById("native_info").innerHTML = result;
+    }
+
+    function scanBarcodeCallback(result) {
+        console.log("scanBarcodeCallback------"+result);
+        document.getElementById("native_info").innerHTML = result;
+    }
+
+    function goBackEning() {
+        ening.goBackEning('');
+    }
+
+    function goEningPay() {
+        var jsonObj = {
+            totalFee:"3.32",
+            from:"OtherAPP",
+            orderNum:"P1531245132213"
+        };
+        var jsonStr=JSON.stringify(jsonObj);
+        ening.goEningPay(jsonStr);
+    }
+
+    function goEningLogin() {
+        ening.goEningLogin('');
+    }
+
+    function scanBarcode() {
+        ening.scanBarcode('');
+    }
+
+    function getEningUserInfo(){
+        var userInfo=ening.getEningUserInfo('');
+        console.log("getEningUserInfo------"+userInfo);
+        var obj = JSON.parse(userInfo);
+        console.log(obj.code + ", " + obj.data+", " + obj.msg);
+        document.getElementById("native_info").innerHTML = obj.code + ", " + obj.data+", " + obj.msg;
+    }
+
+</script>
+<body>
+<input type="button" value="关闭activity" onClick="goBackEning()"/>
+<input type="button" value="支付" onClick="goEningPay()"/>
+<input type="button" value="登录" onClick="goEningLogin()"/>
+<input type="button" value="扫二维码" onClick="scanBarcode()"/>
+<input type="button" value="获取个人信息" onClick="getEningUserInfo()"/>
+<text id="native_info"></text>
+</body>
+
+</html>
