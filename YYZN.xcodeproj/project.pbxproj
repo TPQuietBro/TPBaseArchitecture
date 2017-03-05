@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1832A6EB1E681B4E007E3569 /* ENCreateChildVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832A6EA1E681B4E007E3569 /* ENCreateChildVc.m */; };
-		1832A6F01E682355007E3569 /* Target_LoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832A6EF1E682355007E3569 /* Target_LoginAction.m */; };
-		1832A6F31E682385007E3569 /* CTMediator+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832A6F21E682385007E3569 /* CTMediator+Login.m */; };
 		1832A6F61E68F7BE007E3569 /* ZNNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832A6F51E68F7BE007E3569 /* ZNNewFeatureViewController.m */; };
-		1832A6FC1E68FB5C007E3569 /* ZNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832A6FB1E68FB5C007E3569 /* ZNLoginViewController.m */; };
 		58062ECF1E5ED54F00F636A4 /* ENJudgeVcTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 58062EBB1E5ED54F00F636A4 /* ENJudgeVcTool.m */; };
 		58062ED01E5ED54F00F636A4 /* ENHomeNavigationBarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 58062EBE1E5ED54F00F636A4 /* ENHomeNavigationBarTool.m */; };
 		58062ED21E5ED54F00F636A4 /* ENShowTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 58062EC31E5ED54F00F636A4 /* ENShowTabBar.m */; };
@@ -102,10 +99,6 @@
 		58D3C3BC1E67EF0300ED30C6 /* ENTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3B31E67EF0300ED30C6 /* ENTabBarController.m */; };
 		58D3C3C41E67EF2B00ED30C6 /* YYZNTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3C11E67EF2B00ED30C6 /* YYZNTabBarView.m */; };
 		58D3C3C51E67EF2B00ED30C6 /* YYZNTarBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3C31E67EF2B00ED30C6 /* YYZNTarBarButton.m */; };
-		58D3C3CE1E67F05000ED30C6 /* ZNLoginAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3C81E67F05000ED30C6 /* ZNLoginAPIManager.m */; };
-		58D3C3CF1E67F05000ED30C6 /* ZNLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3CD1E67F05000ED30C6 /* ZNLoginViewModel.m */; };
-		58D3C3D21E67F05F00ED30C6 /* CSSHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3D11E67F05F00ED30C6 /* CSSHomeView.m */; };
-		58D3C3D51E67F07400ED30C6 /* ENCSSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3D41E67F07400ED30C6 /* ENCSSHomeViewController.m */; };
 		58EABB241E2C4C3D004A7A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EABB231E2C4C3D004A7A3E /* main.m */; };
 		58EABB271E2C4C3D004A7A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EABB261E2C4C3D004A7A3E /* AppDelegate.m */; };
 		58EABB2D1E2C4C3D004A7A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EABB2B1E2C4C3D004A7A3E /* Main.storyboard */; };
@@ -115,6 +108,7 @@
 		58EABB481E2C4C3D004A7A3E /* YYZNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EABB471E2C4C3D004A7A3E /* YYZNUITests.m */; };
 		58ECD4111E65240B0034B0D5 /* EWParamsSplitJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECD4101E65240B0034B0D5 /* EWParamsSplitJoint.m */; };
 		BD02D81FAD429C5A701D21B4 /* libPods-YYZN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1593058BBD0BB8B2C8D839EB /* libPods-YYZN.a */; };
+		D76B30AF1E6BEC66003ED4B1 /* ENCSSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76B30AE1E6BEC66003ED4B1 /* ENCSSHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,14 +133,8 @@
 		1832A6E91E681B4E007E3569 /* ENCreateChildVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCreateChildVc.h; sourceTree = "<group>"; };
 		1832A6EA1E681B4E007E3569 /* ENCreateChildVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCreateChildVc.m; sourceTree = "<group>"; };
 		1832A6EC1E682088007E3569 /* ZNPushProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNPushProtocol.h; sourceTree = "<group>"; };
-		1832A6EE1E682355007E3569 /* Target_LoginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_LoginAction.h; sourceTree = "<group>"; };
-		1832A6EF1E682355007E3569 /* Target_LoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_LoginAction.m; sourceTree = "<group>"; };
-		1832A6F11E682385007E3569 /* CTMediator+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Login.h"; sourceTree = "<group>"; };
-		1832A6F21E682385007E3569 /* CTMediator+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Login.m"; sourceTree = "<group>"; };
 		1832A6F41E68F7BE007E3569 /* ZNNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNNewFeatureViewController.h; sourceTree = "<group>"; };
 		1832A6F51E68F7BE007E3569 /* ZNNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNNewFeatureViewController.m; sourceTree = "<group>"; };
-		1832A6FA1E68FB5C007E3569 /* ZNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNLoginViewController.h; path = ../../../ZNLoginViewController.h; sourceTree = "<group>"; };
-		1832A6FB1E68FB5C007E3569 /* ZNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNLoginViewController.m; path = ../../../ZNLoginViewController.m; sourceTree = "<group>"; };
 		58062EBA1E5ED54F00F636A4 /* ENJudgeVcTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENJudgeVcTool.h; sourceTree = "<group>"; };
 		58062EBB1E5ED54F00F636A4 /* ENJudgeVcTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENJudgeVcTool.m; sourceTree = "<group>"; };
 		58062EBD1E5ED54F00F636A4 /* ENHomeNavigationBarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENHomeNavigationBarTool.h; sourceTree = "<group>"; };
@@ -332,14 +320,6 @@
 		58D3C3C11E67EF2B00ED30C6 /* YYZNTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYZNTabBarView.m; sourceTree = "<group>"; };
 		58D3C3C21E67EF2B00ED30C6 /* YYZNTarBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYZNTarBarButton.h; sourceTree = "<group>"; };
 		58D3C3C31E67EF2B00ED30C6 /* YYZNTarBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYZNTarBarButton.m; sourceTree = "<group>"; };
-		58D3C3C71E67F05000ED30C6 /* ZNLoginAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNLoginAPIManager.h; sourceTree = "<group>"; };
-		58D3C3C81E67F05000ED30C6 /* ZNLoginAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNLoginAPIManager.m; sourceTree = "<group>"; };
-		58D3C3CC1E67F05000ED30C6 /* ZNLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNLoginViewModel.h; sourceTree = "<group>"; };
-		58D3C3CD1E67F05000ED30C6 /* ZNLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNLoginViewModel.m; sourceTree = "<group>"; };
-		58D3C3D01E67F05F00ED30C6 /* CSSHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSHomeView.h; sourceTree = "<group>"; };
-		58D3C3D11E67F05F00ED30C6 /* CSSHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSHomeView.m; sourceTree = "<group>"; };
-		58D3C3D31E67F07400ED30C6 /* ENCSSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCSSHomeViewController.h; sourceTree = "<group>"; };
-		58D3C3D41E67F07400ED30C6 /* ENCSSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCSSHomeViewController.m; sourceTree = "<group>"; };
 		58EABB1F1E2C4C3D004A7A3E /* YYZN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYZN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EABB231E2C4C3D004A7A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58EABB251E2C4C3D004A7A3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -360,6 +340,8 @@
 		58ECD4101E65240B0034B0D5 /* EWParamsSplitJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWParamsSplitJoint.m; sourceTree = "<group>"; };
 		8DFC5F4B3C5E603DBD673C17 /* Pods-YYZN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYZN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYZN/Pods-YYZN.debug.xcconfig"; sourceTree = "<group>"; };
 		A0613C2CEEB6948951DCAC43 /* Pods-YYZN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYZN.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYZN/Pods-YYZN.release.xcconfig"; sourceTree = "<group>"; };
+		D76B30AD1E6BEC66003ED4B1 /* ENCSSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCSSHomeViewController.h; sourceTree = "<group>"; };
+		D76B30AE1E6BEC66003ED4B1 /* ENCSSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCSSHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,29 +370,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1832A6E21E66AF85007E3569 /* 登陆 */ = {
-			isa = PBXGroup;
-			children = (
-				1832A6ED1E6822E5007E3569 /* Target_Action */,
-				58D3C3C61E67F05000ED30C6 /* APIManager */,
-				58D3C3C91E67F05000ED30C6 /* Controller */,
-				58D3C3CA1E67F05000ED30C6 /* View */,
-				58D3C3CB1E67F05000ED30C6 /* ViewModel */,
-			);
-			path = "登陆";
-			sourceTree = "<group>";
-		};
-		1832A6ED1E6822E5007E3569 /* Target_Action */ = {
-			isa = PBXGroup;
-			children = (
-				1832A6EE1E682355007E3569 /* Target_LoginAction.h */,
-				1832A6EF1E682355007E3569 /* Target_LoginAction.m */,
-				1832A6F11E682385007E3569 /* CTMediator+Login.h */,
-				1832A6F21E682385007E3569 /* CTMediator+Login.m */,
-			);
-			path = Target_Action;
-			sourceTree = "<group>";
-		};
 		24434CEA2C9F51F24B54E4EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1011,7 +970,6 @@
 		588EF00F1E5C0B8600E14E8A /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				1832A6E21E66AF85007E3569 /* 登陆 */,
 				588EF0561E5C0C3600E14E8A /* Demo */,
 			);
 			name = Example;
@@ -1115,6 +1073,8 @@
 		588EF0701E5C0C3600E14E8A /* CSS */ = {
 			isa = PBXGroup;
 			children = (
+				D76B30AD1E6BEC66003ED4B1 /* ENCSSHomeViewController.h */,
+				D76B30AE1E6BEC66003ED4B1 /* ENCSSHomeViewController.m */,
 			);
 			path = CSS;
 			sourceTree = "<group>";
@@ -1440,44 +1400,6 @@
 			path = ZNView;
 			sourceTree = "<group>";
 		};
-		58D3C3C61E67F05000ED30C6 /* APIManager */ = {
-			isa = PBXGroup;
-			children = (
-				58D3C3C71E67F05000ED30C6 /* ZNLoginAPIManager.h */,
-				58D3C3C81E67F05000ED30C6 /* ZNLoginAPIManager.m */,
-			);
-			path = APIManager;
-			sourceTree = "<group>";
-		};
-		58D3C3C91E67F05000ED30C6 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				1832A6FA1E68FB5C007E3569 /* ZNLoginViewController.h */,
-				1832A6FB1E68FB5C007E3569 /* ZNLoginViewController.m */,
-				58D3C3D31E67F07400ED30C6 /* ENCSSHomeViewController.h */,
-				58D3C3D41E67F07400ED30C6 /* ENCSSHomeViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		58D3C3CA1E67F05000ED30C6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				58D3C3D01E67F05F00ED30C6 /* CSSHomeView.h */,
-				58D3C3D11E67F05F00ED30C6 /* CSSHomeView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		58D3C3CB1E67F05000ED30C6 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				58D3C3CC1E67F05000ED30C6 /* ZNLoginViewModel.h */,
-				58D3C3CD1E67F05000ED30C6 /* ZNLoginViewModel.m */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		58EABB161E2C4C3D004A7A3E = {
 			isa = PBXGroup;
 			children = (
@@ -1783,14 +1705,13 @@
 				58062FAB1E5ED5F600F636A4 /* LBXZXCapture.m in Sources */,
 				58062F821E5ED5F600F636A4 /* JSONManager.m in Sources */,
 				58D3C3BB1E67EF0300ED30C6 /* ENNavigationController.m in Sources */,
-				1832A6F01E682355007E3569 /* Target_LoginAction.m in Sources */,
 				588EF0BC1E5C0C3600E14E8A /* ENTest_AViewController.m in Sources */,
 				58062F8C1E5ED5F600F636A4 /* UIColor+OldDriverColor.m in Sources */,
 				58062F851E5ED5F600F636A4 /* EWBaseViewModel.m in Sources */,
 				58062F7A1E5ED5F600F636A4 /* EWFMDBManager.m in Sources */,
 				58062FA61E5ED5F600F636A4 /* LBXScanVideoZoomView.m in Sources */,
-				1832A6FC1E68FB5C007E3569 /* ZNLoginViewController.m in Sources */,
 				58062F781E5ED5F600F636A4 /* EWMarcoFile.m in Sources */,
+				D76B30AF1E6BEC66003ED4B1 /* ENCSSHomeViewController.m in Sources */,
 				588EF0CE1E5C0C3600E14E8A /* TableViewViewModel.m in Sources */,
 				58062F8A1E5ED5F600F636A4 /* NSString+DictToJSON.m in Sources */,
 				588EF0C71E5C0C3600E14E8A /* ENTableViewDelegate+HomeTableViewDelegate.m in Sources */,
@@ -1811,7 +1732,6 @@
 				58062F951E5ED5F600F636A4 /* UIViewController+DCURLRouter.m in Sources */,
 				58C4F0941E63F46900F62ABC /* EWNetworkStatus.m in Sources */,
 				58062F801E5ED5F600F636A4 /* CTMediator+Scan.m in Sources */,
-				58D3C3D21E67F05F00ED30C6 /* CSSHomeView.m in Sources */,
 				58D3C3B91E67EF0300ED30C6 /* ENBaseViewController.m in Sources */,
 				58062FA31E5ED5F600F636A4 /* LBXScanNative.m in Sources */,
 				1832A6F61E68F7BE007E3569 /* ZNNewFeatureViewController.m in Sources */,
@@ -1821,7 +1741,6 @@
 				58062F9E1E5ED5F600F636A4 /* ENMyQRViewController.m in Sources */,
 				583D39C71E69452B006C8498 /* ZNRequestAnimation.m in Sources */,
 				58C4F06C1E63F29200F62ABC /* EWAPIBaseManager.m in Sources */,
-				1832A6F31E682385007E3569 /* CTMediator+Login.m in Sources */,
 				1832A6EB1E681B4E007E3569 /* ENCreateChildVc.m in Sources */,
 				58ECD4111E65240B0034B0D5 /* EWParamsSplitJoint.m in Sources */,
 				58062F7D1E5ED5F600F636A4 /* NSObject+FastInit.m in Sources */,
@@ -1831,7 +1750,6 @@
 				588EF0BE1E5C0C3600E14E8A /* Target_ModuleB.m in Sources */,
 				58062F831E5ED5F600F636A4 /* EngingKeyChain.m in Sources */,
 				588EF0BA1E5C0C3600E14E8A /* CTMediator+Test_A.m in Sources */,
-				58D3C3D51E67F07400ED30C6 /* ENCSSHomeViewController.m in Sources */,
 				58C4F0841E63F39C00F62ABC /* EWResponse.m in Sources */,
 				58062FAC1E5ED5F600F636A4 /* ZXingWrapper.m in Sources */,
 				588EF0C91E5C0C3600E14E8A /* TestCellTableViewCell.m in Sources */,
@@ -1850,8 +1768,6 @@
 				58062F881E5ED5F600F636A4 /* NSDictionary+JSONToDict.m in Sources */,
 				58062F7C1E5ED5F600F636A4 /* UIButton+click.m in Sources */,
 				588EF0CB1E5C0C3600E14E8A /* ENPublicBgView.m in Sources */,
-				58D3C3CE1E67F05000ED30C6 /* ZNLoginAPIManager.m in Sources */,
-				58D3C3CF1E67F05000ED30C6 /* ZNLoginViewModel.m in Sources */,
 				58D3C3BC1E67EF0300ED30C6 /* ENTabBarController.m in Sources */,
 				588EF0B91E5C0C3600E14E8A /* ENBMSHomeViewController.m in Sources */,
 				58C4F0871E63F3AB00F62ABC /* EWAPIRequest.m in Sources */,

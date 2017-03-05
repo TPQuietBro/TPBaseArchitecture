@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CSSHomeView.h"
 
-@interface ENCSSHomeViewController : UIViewController <YYZNLoginDelegate,ZNPushProtocol>
+@interface ENCSSHomeViewController : UIViewController 
 
 @end

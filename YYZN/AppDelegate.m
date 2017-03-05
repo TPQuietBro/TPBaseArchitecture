@@ -10,7 +10,7 @@
 #import "ENTabBarController.h"
 #import "EWCacheManager.h"
 #import "ZNNewFeatureViewController.h"
-#import "ZNLoginViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -26,6 +26,10 @@
     [DCURLRouter loadConfigDictFromPlist:@"DCURLRouter.plist"];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ENTabBarController *tabVC= [[ENTabBarController alloc] init];
+    
+    self.window.rootViewController = tabVC;
 
     [self.window makeKeyAndVisible];
     
@@ -64,29 +68,8 @@
 }
 #pragma mark - newFeature
 - (void)setNewFeature{
-    //得到最近的版本号
-    NSString *latestVersion = [[NSUserDefaults standardUserDefaults] objectForKey:@"versionKey"];
-    //得到当前的版本号
-    //NSString *currentVersion = [NSBundle mainBundle].infoDictionary[versionKey];
-    
-    ZNNewFeatureViewController *newVc = [[ZNNewFeatureViewController alloc] init];
-    
-    ZNLoginViewController *loginVc = [[ZNLoginViewController alloc]init];
-    
-    //老版本
-    if ([[NSBundle mainBundle].infoDictionary[@"CFBundleVersion"] isEqualToString:latestVersion] ) {
-        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:loginVc];
-        nav.navigationBar.hidden = YES;
-        self.window.rootViewController = nav;
-    }else{
-        //新版本
-        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:newVc];
-        self.window.rootViewController = nav;
-        nav.navigationBar.hidden = YES;
-        [[NSUserDefaults standardUserDefaults] setObject:[NSBundle mainBundle].infoDictionary[@"CFBundleVersion"] forKey:@"versionKey"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-    }
 
+    
 }
 
 @end
