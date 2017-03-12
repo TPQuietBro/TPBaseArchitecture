@@ -69,7 +69,6 @@
 		58062FAF1E5ED5F600F636A4 /* EWTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58062F701E5ED5F600F636A4 /* EWTableViewDelegate.m */; };
 		58062FB01E5ED5F600F636A4 /* EWNativePushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58062F741E5ED5F600F636A4 /* EWNativePushManager.m */; };
 		58062FB11E5ED5F600F636A4 /* UIViewController+ReverseValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 58062F761E5ED5F600F636A4 /* UIViewController+ReverseValue.m */; };
-		580BF4091E6025F8008FB822 /* EWRequestByAFN.m in Sources */ = {isa = PBXBuildFile; fileRef = 580BF3F41E6025F8008FB822 /* EWRequestByAFN.m */; };
 		583D39C71E69452B006C8498 /* ZNRequestAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 583D39C61E69452B006C8498 /* ZNRequestAnimation.m */; };
 		584A110A1E666982006AF864 /* TestDataFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A11091E666982006AF864 /* TestDataFilter.m */; };
 		588EF0B91E5C0C3600E14E8A /* ENBMSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EF05D1E5C0C3600E14E8A /* ENBMSHomeViewController.m */; };
@@ -86,12 +85,6 @@
 		588EF0C91E5C0C3600E14E8A /* TestCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EF0921E5C0C3600E14E8A /* TestCellTableViewCell.m */; };
 		588EF0CB1E5C0C3600E14E8A /* ENPublicBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EF0981E5C0C3600E14E8A /* ENPublicBgView.m */; };
 		588EF0CE1E5C0C3600E14E8A /* TableViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EF0A31E5C0C3600E14E8A /* TableViewViewModel.m */; };
-		58C4F06C1E63F29200F62ABC /* EWAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4F06B1E63F29200F62ABC /* EWAPIBaseManager.m */; };
-		58C4F0841E63F39C00F62ABC /* EWResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4F0831E63F39C00F62ABC /* EWResponse.m */; };
-		58C4F0871E63F3AB00F62ABC /* EWAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4F0861E63F3AB00F62ABC /* EWAPIRequest.m */; };
-		58C4F0931E63F46900F62ABC /* EWCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4F08A1E63F46900F62ABC /* EWCacheManager.m */; };
-		58C4F0941E63F46900F62ABC /* EWNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4F08F1E63F46900F62ABC /* EWNetworkStatus.m */; };
-		58C4F0951E63F46900F62ABC /* EWRequestInstanceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4F0921E63F46900F62ABC /* EWRequestInstanceFactory.m */; };
 		58C4F09A1E64215300F62ABC /* TestAPIManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4F0991E64215300F62ABC /* TestAPIManger.m */; };
 		58D3C3B91E67EF0300ED30C6 /* ENBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3AD1E67EF0300ED30C6 /* ENBaseViewController.m */; };
 		58D3C3BA1E67EF0300ED30C6 /* ENMediatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D3C3AF1E67EF0300ED30C6 /* ENMediatorViewController.m */; };
@@ -108,6 +101,18 @@
 		58EABB481E2C4C3D004A7A3E /* YYZNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EABB471E2C4C3D004A7A3E /* YYZNUITests.m */; };
 		58ECD4111E65240B0034B0D5 /* EWParamsSplitJoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECD4101E65240B0034B0D5 /* EWParamsSplitJoint.m */; };
 		BD02D81FAD429C5A701D21B4 /* libPods-YYZN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1593058BBD0BB8B2C8D839EB /* libPods-YYZN.a */; };
+		D749251B1E751A4E0092AB74 /* EWAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D74924F31E751A4E0092AB74 /* EWAPIBaseManager.m */; };
+		D749251C1E751A4E0092AB74 /* EWCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D74924F61E751A4E0092AB74 /* EWCacheManager.m */; };
+		D749251D1E751A4E0092AB74 /* EWRequestByAFN.m in Sources */ = {isa = PBXBuildFile; fileRef = D74924F91E751A4E0092AB74 /* EWRequestByAFN.m */; };
+		D749251E1E751A4E0092AB74 /* EWNetworkConstFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D74924FC1E751A4E0092AB74 /* EWNetworkConstFile.m */; };
+		D749251F1E751A4E0092AB74 /* EWNetworkMarcoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D74924FE1E751A4E0092AB74 /* EWNetworkMarcoFile.m */; };
+		D74925211E751A4E0092AB74 /* NSDictionary+JSONToDict.m in Sources */ = {isa = PBXBuildFile; fileRef = D74925031E751A4E0092AB74 /* NSDictionary+JSONToDict.m */; };
+		D74925221E751A4E0092AB74 /* NSString+DictToJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D74925051E751A4E0092AB74 /* NSString+DictToJSON.m */; };
+		D74925231E751A4E0092AB74 /* EWNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D749250E1E751A4E0092AB74 /* EWNetworkStatus.m */; };
+		D74925241E751A4E0092AB74 /* EWAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D74925111E751A4E0092AB74 /* EWAPIRequest.m */; };
+		D74925251E751A4E0092AB74 /* EWRequestInstanceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D74925141E751A4E0092AB74 /* EWRequestInstanceFactory.m */; };
+		D74925261E751A4E0092AB74 /* EWResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D74925171E751A4E0092AB74 /* EWResponse.m */; };
+		D74925271E751A4E0092AB74 /* NSUserDefaults+ValueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D749251A1E751A4E0092AB74 /* NSUserDefaults+ValueOperation.m */; };
 		D76B30AF1E6BEC66003ED4B1 /* ENCSSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76B30AE1E6BEC66003ED4B1 /* ENCSSHomeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -256,11 +261,8 @@
 		58062F741E5ED5F600F636A4 /* EWNativePushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWNativePushManager.m; sourceTree = "<group>"; };
 		58062F751E5ED5F600F636A4 /* UIViewController+ReverseValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ReverseValue.h"; sourceTree = "<group>"; };
 		58062F761E5ED5F600F636A4 /* UIViewController+ReverseValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ReverseValue.m"; sourceTree = "<group>"; };
-		580BF3F31E6025F8008FB822 /* EWRequestByAFN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWRequestByAFN.h; sourceTree = "<group>"; };
-		580BF3F41E6025F8008FB822 /* EWRequestByAFN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWRequestByAFN.m; sourceTree = "<group>"; };
 		583D39C51E69452B006C8498 /* ZNRequestAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNRequestAnimation.h; sourceTree = "<group>"; };
 		583D39C61E69452B006C8498 /* ZNRequestAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNRequestAnimation.m; sourceTree = "<group>"; };
-		584A11071E6668FE006AF864 /* EWDataFilterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWDataFilterProtocol.h; sourceTree = "<group>"; };
 		584A11081E666982006AF864 /* TestDataFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDataFilter.h; sourceTree = "<group>"; };
 		584A11091E666982006AF864 /* TestDataFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDataFilter.m; sourceTree = "<group>"; };
 		588EF05C1E5C0C3600E14E8A /* ENBMSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENBMSHomeViewController.h; sourceTree = "<group>"; };
@@ -291,21 +293,6 @@
 		588EF0981E5C0C3600E14E8A /* ENPublicBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENPublicBgView.m; sourceTree = "<group>"; };
 		588EF0A21E5C0C3600E14E8A /* TableViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewViewModel.h; sourceTree = "<group>"; };
 		588EF0A31E5C0C3600E14E8A /* TableViewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewViewModel.m; sourceTree = "<group>"; };
-		58C4F06A1E63F29200F62ABC /* EWAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPIBaseManager.h; sourceTree = "<group>"; };
-		58C4F06B1E63F29200F62ABC /* EWAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWAPIBaseManager.m; sourceTree = "<group>"; };
-		58C4F0821E63F39C00F62ABC /* EWResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWResponse.h; sourceTree = "<group>"; };
-		58C4F0831E63F39C00F62ABC /* EWResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWResponse.m; sourceTree = "<group>"; };
-		58C4F0851E63F3AB00F62ABC /* EWAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPIRequest.h; sourceTree = "<group>"; };
-		58C4F0861E63F3AB00F62ABC /* EWAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWAPIRequest.m; sourceTree = "<group>"; };
-		58C4F0891E63F46900F62ABC /* EWCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWCacheManager.h; sourceTree = "<group>"; };
-		58C4F08A1E63F46900F62ABC /* EWCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWCacheManager.m; sourceTree = "<group>"; };
-		58C4F08C1E63F46900F62ABC /* EWNetworkRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWNetworkRequestProtocol.h; sourceTree = "<group>"; };
-		58C4F08E1E63F46900F62ABC /* EWNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWNetworkStatus.h; sourceTree = "<group>"; };
-		58C4F08F1E63F46900F62ABC /* EWNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWNetworkStatus.m; sourceTree = "<group>"; };
-		58C4F0911E63F46900F62ABC /* EWRequestInstanceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWRequestInstanceFactory.h; sourceTree = "<group>"; };
-		58C4F0921E63F46900F62ABC /* EWRequestInstanceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWRequestInstanceFactory.m; sourceTree = "<group>"; };
-		58C4F0961E63FC2900F62ABC /* EWAPICallBackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPICallBackProtocol.h; sourceTree = "<group>"; };
-		58C4F0971E6407AB00F62ABC /* EWAPIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPIManagerProtocol.h; sourceTree = "<group>"; };
 		58C4F0981E64215300F62ABC /* TestAPIManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAPIManger.h; sourceTree = "<group>"; };
 		58C4F0991E64215300F62ABC /* TestAPIManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAPIManger.m; sourceTree = "<group>"; };
 		58D3C3AC1E67EF0300ED30C6 /* ENBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENBaseViewController.h; sourceTree = "<group>"; };
@@ -335,11 +322,42 @@
 		58EABB471E2C4C3D004A7A3E /* YYZNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYZNUITests.m; sourceTree = "<group>"; };
 		58EABB491E2C4C3D004A7A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58EABB881E2C596F004A7A3E /* YYZN.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYZN.pch; sourceTree = "<group>"; };
-		58ECD40D1E6507970034B0D5 /* EWNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWNetworking.h; sourceTree = "<group>"; };
 		58ECD40F1E65240B0034B0D5 /* EWParamsSplitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWParamsSplitJoint.h; sourceTree = "<group>"; };
 		58ECD4101E65240B0034B0D5 /* EWParamsSplitJoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWParamsSplitJoint.m; sourceTree = "<group>"; };
 		8DFC5F4B3C5E603DBD673C17 /* Pods-YYZN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYZN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYZN/Pods-YYZN.debug.xcconfig"; sourceTree = "<group>"; };
 		A0613C2CEEB6948951DCAC43 /* Pods-YYZN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYZN.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYZN/Pods-YYZN.release.xcconfig"; sourceTree = "<group>"; };
+		D74924F21E751A4E0092AB74 /* EWAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPIBaseManager.h; sourceTree = "<group>"; };
+		D74924F31E751A4E0092AB74 /* EWAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWAPIBaseManager.m; sourceTree = "<group>"; };
+		D74924F51E751A4E0092AB74 /* EWCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWCacheManager.h; sourceTree = "<group>"; };
+		D74924F61E751A4E0092AB74 /* EWCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWCacheManager.m; sourceTree = "<group>"; };
+		D74924F81E751A4E0092AB74 /* EWRequestByAFN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWRequestByAFN.h; sourceTree = "<group>"; };
+		D74924F91E751A4E0092AB74 /* EWRequestByAFN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWRequestByAFN.m; sourceTree = "<group>"; };
+		D74924FB1E751A4E0092AB74 /* EWNetworkConstFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWNetworkConstFile.h; sourceTree = "<group>"; };
+		D74924FC1E751A4E0092AB74 /* EWNetworkConstFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWNetworkConstFile.m; sourceTree = "<group>"; };
+		D74924FD1E751A4E0092AB74 /* EWNetworkMarcoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWNetworkMarcoFile.h; sourceTree = "<group>"; };
+		D74924FE1E751A4E0092AB74 /* EWNetworkMarcoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWNetworkMarcoFile.m; sourceTree = "<group>"; };
+		D74924FF1E751A4E0092AB74 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		D74925001E751A4E0092AB74 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		D74925011E751A4E0092AB74 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		D74925021E751A4E0092AB74 /* NSDictionary+JSONToDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONToDict.h"; sourceTree = "<group>"; };
+		D74925031E751A4E0092AB74 /* NSDictionary+JSONToDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONToDict.m"; sourceTree = "<group>"; };
+		D74925041E751A4E0092AB74 /* NSString+DictToJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DictToJSON.h"; sourceTree = "<group>"; };
+		D74925051E751A4E0092AB74 /* NSString+DictToJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DictToJSON.m"; sourceTree = "<group>"; };
+		D74925061E751A4E0092AB74 /* EWNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWNetworking.h; sourceTree = "<group>"; };
+		D74925081E751A4E0092AB74 /* EWAPICallBackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPICallBackProtocol.h; sourceTree = "<group>"; };
+		D74925091E751A4E0092AB74 /* EWAPIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPIManagerProtocol.h; sourceTree = "<group>"; };
+		D749250A1E751A4E0092AB74 /* EWDataFilterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWDataFilterProtocol.h; sourceTree = "<group>"; };
+		D749250B1E751A4E0092AB74 /* EWNetworkRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWNetworkRequestProtocol.h; sourceTree = "<group>"; };
+		D749250D1E751A4E0092AB74 /* EWNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWNetworkStatus.h; sourceTree = "<group>"; };
+		D749250E1E751A4E0092AB74 /* EWNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWNetworkStatus.m; sourceTree = "<group>"; };
+		D74925101E751A4E0092AB74 /* EWAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWAPIRequest.h; sourceTree = "<group>"; };
+		D74925111E751A4E0092AB74 /* EWAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWAPIRequest.m; sourceTree = "<group>"; };
+		D74925131E751A4E0092AB74 /* EWRequestInstanceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWRequestInstanceFactory.h; sourceTree = "<group>"; };
+		D74925141E751A4E0092AB74 /* EWRequestInstanceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWRequestInstanceFactory.m; sourceTree = "<group>"; };
+		D74925161E751A4E0092AB74 /* EWResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWResponse.h; sourceTree = "<group>"; };
+		D74925171E751A4E0092AB74 /* EWResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWResponse.m; sourceTree = "<group>"; };
+		D74925191E751A4E0092AB74 /* NSUserDefaults+ValueOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ValueOperation.h"; sourceTree = "<group>"; };
+		D749251A1E751A4E0092AB74 /* NSUserDefaults+ValueOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ValueOperation.m"; sourceTree = "<group>"; };
 		D76B30AD1E6BEC66003ED4B1 /* ENCSSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCSSHomeViewController.h; sourceTree = "<group>"; };
 		D76B30AE1E6BEC66003ED4B1 /* ENCSSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCSSHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -495,7 +513,6 @@
 		58062ED51E5ED5F600F636A4 /* Einwin */ = {
 			isa = PBXGroup;
 			children = (
-				580BF3F11E6025F8008FB822 /* EWNetworkConfig */,
 				58062ED61E5ED5F600F636A4 /* EWBaseConfig */,
 				58062EDB1E5ED5F600F636A4 /* EWBaseExpand */,
 				58062F201E5ED5F600F636A4 /* EWBaseLib */,
@@ -933,31 +950,6 @@
 			path = EWURLManager;
 			sourceTree = "<group>";
 		};
-		580BF3F11E6025F8008FB822 /* EWNetworkConfig */ = {
-			isa = PBXGroup;
-			children = (
-				58ECD40D1E6507970034B0D5 /* EWNetworking.h */,
-				58C4F0691E63F25A00F62ABC /* EWAPIBaseManager */,
-				58C4F06E1E63F36900F62ABC /* EWResponse */,
-				58C4F06D1E63F36900F62ABC /* EWRequest */,
-				58C4F0881E63F46900F62ABC /* EWCache */,
-				58C4F08B1E63F46900F62ABC /* EWNetWorkRequestProcotol */,
-				58C4F08D1E63F46900F62ABC /* EWNetWorkStatus */,
-				58C4F0901E63F46900F62ABC /* EWRequestFactory */,
-				580BF3F21E6025F8008FB822 /* EWNetworkAFN */,
-			);
-			path = EWNetworkConfig;
-			sourceTree = "<group>";
-		};
-		580BF3F21E6025F8008FB822 /* EWNetworkAFN */ = {
-			isa = PBXGroup;
-			children = (
-				580BF3F31E6025F8008FB822 /* EWRequestByAFN.h */,
-				580BF3F41E6025F8008FB822 /* EWRequestByAFN.m */,
-			);
-			path = EWNetworkAFN;
-			sourceTree = "<group>";
-		};
 		583D39C41E69449A006C8498 /* ZNAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1273,75 +1265,6 @@
 			path = YYHome;
 			sourceTree = "<group>";
 		};
-		58C4F0691E63F25A00F62ABC /* EWAPIBaseManager */ = {
-			isa = PBXGroup;
-			children = (
-				58C4F06A1E63F29200F62ABC /* EWAPIBaseManager.h */,
-				58C4F06B1E63F29200F62ABC /* EWAPIBaseManager.m */,
-			);
-			path = EWAPIBaseManager;
-			sourceTree = "<group>";
-		};
-		58C4F06D1E63F36900F62ABC /* EWRequest */ = {
-			isa = PBXGroup;
-			children = (
-				58C4F0851E63F3AB00F62ABC /* EWAPIRequest.h */,
-				58C4F0861E63F3AB00F62ABC /* EWAPIRequest.m */,
-			);
-			path = EWRequest;
-			sourceTree = "<group>";
-		};
-		58C4F06E1E63F36900F62ABC /* EWResponse */ = {
-			isa = PBXGroup;
-			children = (
-				58C4F0821E63F39C00F62ABC /* EWResponse.h */,
-				58C4F0831E63F39C00F62ABC /* EWResponse.m */,
-			);
-			path = EWResponse;
-			sourceTree = "<group>";
-		};
-		58C4F0881E63F46900F62ABC /* EWCache */ = {
-			isa = PBXGroup;
-			children = (
-				58C4F0891E63F46900F62ABC /* EWCacheManager.h */,
-				58C4F08A1E63F46900F62ABC /* EWCacheManager.m */,
-			);
-			name = EWCache;
-			path = EWTempNetWork/EWNetWorkRequest/EWCache;
-			sourceTree = "<group>";
-		};
-		58C4F08B1E63F46900F62ABC /* EWNetWorkRequestProcotol */ = {
-			isa = PBXGroup;
-			children = (
-				58C4F08C1E63F46900F62ABC /* EWNetworkRequestProtocol.h */,
-				58C4F0961E63FC2900F62ABC /* EWAPICallBackProtocol.h */,
-				58C4F0971E6407AB00F62ABC /* EWAPIManagerProtocol.h */,
-				584A11071E6668FE006AF864 /* EWDataFilterProtocol.h */,
-			);
-			name = EWNetWorkRequestProcotol;
-			path = EWTempNetWork/EWNetWorkRequest/EWNetWorkRequestProcotol;
-			sourceTree = "<group>";
-		};
-		58C4F08D1E63F46900F62ABC /* EWNetWorkStatus */ = {
-			isa = PBXGroup;
-			children = (
-				58C4F08E1E63F46900F62ABC /* EWNetworkStatus.h */,
-				58C4F08F1E63F46900F62ABC /* EWNetworkStatus.m */,
-			);
-			name = EWNetWorkStatus;
-			path = EWTempNetWork/EWNetWorkRequest/EWNetWorkStatus;
-			sourceTree = "<group>";
-		};
-		58C4F0901E63F46900F62ABC /* EWRequestFactory */ = {
-			isa = PBXGroup;
-			children = (
-				58C4F0911E63F46900F62ABC /* EWRequestInstanceFactory.h */,
-				58C4F0921E63F46900F62ABC /* EWRequestInstanceFactory.m */,
-			);
-			name = EWRequestFactory;
-			path = EWTempNetWork/EWNetWorkRequest/EWRequestFactory;
-			sourceTree = "<group>";
-		};
 		58D3C3861E67ED4000ED30C6 /* IM */ = {
 			isa = PBXGroup;
 			children = (
@@ -1403,6 +1326,7 @@
 		58EABB161E2C4C3D004A7A3E = {
 			isa = PBXGroup;
 			children = (
+				D74924F01E751A4E0092AB74 /* EWNetwork */,
 				58062ED51E5ED5F600F636A4 /* Einwin */,
 				58062EB71E5ED54F00F636A4 /* ZNFoundation */,
 				58EABB211E2C4C3D004A7A3E /* YYZN */,
@@ -1488,6 +1412,125 @@
 				A0613C2CEEB6948951DCAC43 /* Pods-YYZN.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D74924F01E751A4E0092AB74 /* EWNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D74925061E751A4E0092AB74 /* EWNetworking.h */,
+				D74924F11E751A4E0092AB74 /* EWAPIBaseManager */,
+				D74924F41E751A4E0092AB74 /* EWCache */,
+				D74924F71E751A4E0092AB74 /* EWNetworkAFN */,
+				D74924FA1E751A4E0092AB74 /* EWNetworkBaseConfig */,
+				D74925071E751A4E0092AB74 /* EWNetWorkRequestProcotol */,
+				D749250C1E751A4E0092AB74 /* EWNetWorkStatus */,
+				D749250F1E751A4E0092AB74 /* EWRequest */,
+				D74925121E751A4E0092AB74 /* EWRequestFactory */,
+				D74925151E751A4E0092AB74 /* EWResponse */,
+				D74925181E751A4E0092AB74 /* NSUserDefaults_Category */,
+			);
+			path = EWNetwork;
+			sourceTree = "<group>";
+		};
+		D74924F11E751A4E0092AB74 /* EWAPIBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				D74924F21E751A4E0092AB74 /* EWAPIBaseManager.h */,
+				D74924F31E751A4E0092AB74 /* EWAPIBaseManager.m */,
+			);
+			path = EWAPIBaseManager;
+			sourceTree = "<group>";
+		};
+		D74924F41E751A4E0092AB74 /* EWCache */ = {
+			isa = PBXGroup;
+			children = (
+				D74924F51E751A4E0092AB74 /* EWCacheManager.h */,
+				D74924F61E751A4E0092AB74 /* EWCacheManager.m */,
+			);
+			path = EWCache;
+			sourceTree = "<group>";
+		};
+		D74924F71E751A4E0092AB74 /* EWNetworkAFN */ = {
+			isa = PBXGroup;
+			children = (
+				D74924F81E751A4E0092AB74 /* EWRequestByAFN.h */,
+				D74924F91E751A4E0092AB74 /* EWRequestByAFN.m */,
+			);
+			path = EWNetworkAFN;
+			sourceTree = "<group>";
+		};
+		D74924FA1E751A4E0092AB74 /* EWNetworkBaseConfig */ = {
+			isa = PBXGroup;
+			children = (
+				D74924FB1E751A4E0092AB74 /* EWNetworkConstFile.h */,
+				D74924FC1E751A4E0092AB74 /* EWNetworkConstFile.m */,
+				D74924FD1E751A4E0092AB74 /* EWNetworkMarcoFile.h */,
+				D74924FE1E751A4E0092AB74 /* EWNetworkMarcoFile.m */,
+				D74924FF1E751A4E0092AB74 /* GTMBase64.h */,
+				D74925001E751A4E0092AB74 /* GTMBase64.m */,
+				D74925011E751A4E0092AB74 /* GTMDefines.h */,
+				D74925021E751A4E0092AB74 /* NSDictionary+JSONToDict.h */,
+				D74925031E751A4E0092AB74 /* NSDictionary+JSONToDict.m */,
+				D74925041E751A4E0092AB74 /* NSString+DictToJSON.h */,
+				D74925051E751A4E0092AB74 /* NSString+DictToJSON.m */,
+			);
+			path = EWNetworkBaseConfig;
+			sourceTree = "<group>";
+		};
+		D74925071E751A4E0092AB74 /* EWNetWorkRequestProcotol */ = {
+			isa = PBXGroup;
+			children = (
+				D74925081E751A4E0092AB74 /* EWAPICallBackProtocol.h */,
+				D74925091E751A4E0092AB74 /* EWAPIManagerProtocol.h */,
+				D749250A1E751A4E0092AB74 /* EWDataFilterProtocol.h */,
+				D749250B1E751A4E0092AB74 /* EWNetworkRequestProtocol.h */,
+			);
+			path = EWNetWorkRequestProcotol;
+			sourceTree = "<group>";
+		};
+		D749250C1E751A4E0092AB74 /* EWNetWorkStatus */ = {
+			isa = PBXGroup;
+			children = (
+				D749250D1E751A4E0092AB74 /* EWNetworkStatus.h */,
+				D749250E1E751A4E0092AB74 /* EWNetworkStatus.m */,
+			);
+			path = EWNetWorkStatus;
+			sourceTree = "<group>";
+		};
+		D749250F1E751A4E0092AB74 /* EWRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D74925101E751A4E0092AB74 /* EWAPIRequest.h */,
+				D74925111E751A4E0092AB74 /* EWAPIRequest.m */,
+			);
+			path = EWRequest;
+			sourceTree = "<group>";
+		};
+		D74925121E751A4E0092AB74 /* EWRequestFactory */ = {
+			isa = PBXGroup;
+			children = (
+				D74925131E751A4E0092AB74 /* EWRequestInstanceFactory.h */,
+				D74925141E751A4E0092AB74 /* EWRequestInstanceFactory.m */,
+			);
+			path = EWRequestFactory;
+			sourceTree = "<group>";
+		};
+		D74925151E751A4E0092AB74 /* EWResponse */ = {
+			isa = PBXGroup;
+			children = (
+				D74925161E751A4E0092AB74 /* EWResponse.h */,
+				D74925171E751A4E0092AB74 /* EWResponse.m */,
+			);
+			path = EWResponse;
+			sourceTree = "<group>";
+		};
+		D74925181E751A4E0092AB74 /* NSUserDefaults_Category */ = {
+			isa = PBXGroup;
+			children = (
+				D74925191E751A4E0092AB74 /* NSUserDefaults+ValueOperation.h */,
+				D749251A1E751A4E0092AB74 /* NSUserDefaults+ValueOperation.m */,
+			);
+			path = NSUserDefaults_Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1686,15 +1729,15 @@
 				58062FA51E5ED5F600F636A4 /* LBXScanResult.m in Sources */,
 				58EABB271E2C4C3D004A7A3E /* AppDelegate.m in Sources */,
 				58062F8E1E5ED5F600F636A4 /* UIImage+TPRezi.m in Sources */,
+				D74925271E751A4E0092AB74 /* NSUserDefaults+ValueOperation.m in Sources */,
 				588EF0BD1E5C0C3600E14E8A /* CTMediator+MoudleB.m in Sources */,
-				580BF4091E6025F8008FB822 /* EWRequestByAFN.m in Sources */,
-				58C4F0931E63F46900F62ABC /* EWCacheManager.m in Sources */,
 				58062ED31E5ED54F00F636A4 /* YYZNRequestTool.m in Sources */,
 				58062F771E5ED5F600F636A4 /* EWConstFile.m in Sources */,
 				58062F841E5ED5F600F636A4 /* EningKeyChainTool.m in Sources */,
 				58062F811E5ED5F600F636A4 /* ENHudTool.m in Sources */,
 				58062FAA1E5ED5F600F636A4 /* LBXScanWrapper.m in Sources */,
 				58EABB241E2C4C3D004A7A3E /* main.m in Sources */,
+				D749251C1E751A4E0092AB74 /* EWCacheManager.m in Sources */,
 				58062FA01E5ED5F600F636A4 /* ENScanQRCodeViewController.m in Sources */,
 				58062FA21E5ED5F600F636A4 /* LBXScanLineAnimation.m in Sources */,
 				58D3C3C51E67EF2B00ED30C6 /* YYZNTarBarButton.m in Sources */,
@@ -1703,13 +1746,16 @@
 				58062F931E5ED5F600F636A4 /* DCURLRouter.m in Sources */,
 				58062F7B1E5ED5F600F636A4 /* UIButton+buttonFastSetting.m in Sources */,
 				58062FAB1E5ED5F600F636A4 /* LBXZXCapture.m in Sources */,
+				D74925211E751A4E0092AB74 /* NSDictionary+JSONToDict.m in Sources */,
 				58062F821E5ED5F600F636A4 /* JSONManager.m in Sources */,
+				D749251F1E751A4E0092AB74 /* EWNetworkMarcoFile.m in Sources */,
 				58D3C3BB1E67EF0300ED30C6 /* ENNavigationController.m in Sources */,
 				588EF0BC1E5C0C3600E14E8A /* ENTest_AViewController.m in Sources */,
 				58062F8C1E5ED5F600F636A4 /* UIColor+OldDriverColor.m in Sources */,
 				58062F851E5ED5F600F636A4 /* EWBaseViewModel.m in Sources */,
 				58062F7A1E5ED5F600F636A4 /* EWFMDBManager.m in Sources */,
 				58062FA61E5ED5F600F636A4 /* LBXScanVideoZoomView.m in Sources */,
+				D74925221E751A4E0092AB74 /* NSString+DictToJSON.m in Sources */,
 				58062F781E5ED5F600F636A4 /* EWMarcoFile.m in Sources */,
 				D76B30AF1E6BEC66003ED4B1 /* ENCSSHomeViewController.m in Sources */,
 				588EF0CE1E5C0C3600E14E8A /* TableViewViewModel.m in Sources */,
@@ -1717,6 +1763,8 @@
 				588EF0C71E5C0C3600E14E8A /* ENTableViewDelegate+HomeTableViewDelegate.m in Sources */,
 				58062F9C1E5ED5F600F636A4 /* NSTimer+addition.m in Sources */,
 				58062F8D1E5ED5F600F636A4 /* UIImage+Render.m in Sources */,
+				D74925241E751A4E0092AB74 /* EWAPIRequest.m in Sources */,
+				D749251E1E751A4E0092AB74 /* EWNetworkConstFile.m in Sources */,
 				58062F871E5ED5F600F636A4 /* Foundation+Log.m in Sources */,
 				58062F7E1E5ED5F600F636A4 /* UIView+fastFrameSetting.m in Sources */,
 				58062F911E5ED5F600F636A4 /* CTMediator.m in Sources */,
@@ -1725,12 +1773,13 @@
 				58062ED01E5ED54F00F636A4 /* ENHomeNavigationBarTool.m in Sources */,
 				58062F8B1E5ED5F600F636A4 /* NSUserDefaults+ValueOperation.m in Sources */,
 				58062FA81E5ED5F600F636A4 /* LBXScanViewController.m in Sources */,
+				D749251B1E751A4E0092AB74 /* EWAPIBaseManager.m in Sources */,
 				58062FAE1E5ED5F600F636A4 /* EWDataSource.m in Sources */,
+				D74925251E751A4E0092AB74 /* EWRequestInstanceFactory.m in Sources */,
 				58D3C3C41E67EF2B00ED30C6 /* YYZNTabBarView.m in Sources */,
-				58C4F0951E63F46900F62ABC /* EWRequestInstanceFactory.m in Sources */,
 				58062FA41E5ED5F600F636A4 /* LBXScanNetAnimation.m in Sources */,
 				58062F951E5ED5F600F636A4 /* UIViewController+DCURLRouter.m in Sources */,
-				58C4F0941E63F46900F62ABC /* EWNetworkStatus.m in Sources */,
+				D74925261E751A4E0092AB74 /* EWResponse.m in Sources */,
 				58062F801E5ED5F600F636A4 /* CTMediator+Scan.m in Sources */,
 				58D3C3B91E67EF0300ED30C6 /* ENBaseViewController.m in Sources */,
 				58062FA31E5ED5F600F636A4 /* LBXScanNative.m in Sources */,
@@ -1740,17 +1789,16 @@
 				588EF0BB1E5C0C3600E14E8A /* Target_TestAction.m in Sources */,
 				58062F9E1E5ED5F600F636A4 /* ENMyQRViewController.m in Sources */,
 				583D39C71E69452B006C8498 /* ZNRequestAnimation.m in Sources */,
-				58C4F06C1E63F29200F62ABC /* EWAPIBaseManager.m in Sources */,
 				1832A6EB1E681B4E007E3569 /* ENCreateChildVc.m in Sources */,
 				58ECD4111E65240B0034B0D5 /* EWParamsSplitJoint.m in Sources */,
 				58062F7D1E5ED5F600F636A4 /* NSObject+FastInit.m in Sources */,
 				58D3C3BA1E67EF0300ED30C6 /* ENMediatorViewController.m in Sources */,
 				58062ECF1E5ED54F00F636A4 /* ENJudgeVcTool.m in Sources */,
+				D749251D1E751A4E0092AB74 /* EWRequestByAFN.m in Sources */,
 				588EF0C61E5C0C3600E14E8A /* ENSettingHomeViewController.m in Sources */,
 				588EF0BE1E5C0C3600E14E8A /* Target_ModuleB.m in Sources */,
 				58062F831E5ED5F600F636A4 /* EngingKeyChain.m in Sources */,
 				588EF0BA1E5C0C3600E14E8A /* CTMediator+Test_A.m in Sources */,
-				58C4F0841E63F39C00F62ABC /* EWResponse.m in Sources */,
 				58062FAC1E5ED5F600F636A4 /* ZXingWrapper.m in Sources */,
 				588EF0C91E5C0C3600E14E8A /* TestCellTableViewCell.m in Sources */,
 				58062F921E5ED5F600F636A4 /* DCURLNavgation.m in Sources */,
@@ -1758,6 +1806,7 @@
 				58062F901E5ED5F600F636A4 /* UIView+TPFrameExtension.m in Sources */,
 				588EF0BF1E5C0C3600E14E8A /* ENTest_BViewController.m in Sources */,
 				58062F9F1E5ED5F600F636A4 /* ENScanHelper.m in Sources */,
+				D74925231E751A4E0092AB74 /* EWNetworkStatus.m in Sources */,
 				58062FA71E5ED5F600F636A4 /* LBXScanView.m in Sources */,
 				58062F8F1E5ED5F600F636A4 /* UIBarButtonItem+item.m in Sources */,
 				58062F7F1E5ED5F600F636A4 /* UILabel+FastSetting.m in Sources */,
@@ -1770,7 +1819,6 @@
 				588EF0CB1E5C0C3600E14E8A /* ENPublicBgView.m in Sources */,
 				58D3C3BC1E67EF0300ED30C6 /* ENTabBarController.m in Sources */,
 				588EF0B91E5C0C3600E14E8A /* ENBMSHomeViewController.m in Sources */,
-				58C4F0871E63F3AB00F62ABC /* EWAPIRequest.m in Sources */,
 				58062F861E5ED5F600F636A4 /* NSDate+OldDriver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

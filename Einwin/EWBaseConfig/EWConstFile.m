@@ -29,34 +29,6 @@ NSString *const EWHostStringForIntelligence = @"http://int.einwin.com";
 /**智能*/
 //  @"http://testint.einwin.com:8081";
 
-NSString *const KEWNetworkStatus = @"EWNetworkStatus";
 
-NSString *const EWRequestMethodKey = @"requestMethod";
-
-NSString *const EWRequestURLKey = @"requestURL";
-
-NSString *const EWRequestDictKey = @"paramDict";
-
-NSString *const EWRequestCacheTimeKey = @"cacheTime";
-
-NSString *const EWRequestMemberCodeKey = @"memberCode";
-
-NSString *const EWRequestHeaderDictKey = @"EWRequestHeaderDict";
-
-NSString *const EWRequestTypeGet = @"get";
-
-NSString *const EWRequestTypePost = @"post";
-
-NSString *const EWUploadImageKey = @"EWUploadImage";
-
-NSString *const KEWRequestByYTK = @"EWRequestByYTK";
-
-NSString *const KEWRequestByAFN = @"EWRequestByAFN";
-
-NSString *const EWRequestAnimationTarget = @"EWRequestAnimationTarget";
-
-NSString *const EWShowHudAnimation = @"EWShowHudAnimation";
-
-NSString *const EWHideHudAtWindow = @"EWHideHudAtWindow";
 
 @end

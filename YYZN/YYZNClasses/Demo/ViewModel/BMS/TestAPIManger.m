@@ -8,6 +8,7 @@
 
 #import "TestAPIManger.h"
 #import "EWParamsSplitJoint.h"
+#import "EWNetworking.h"
 
 @interface TestAPIManger()
 
