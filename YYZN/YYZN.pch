@@ -17,7 +17,6 @@
 #import "EWConstFile.h"
 #import "CTMediator.h"
 #import <Masonry.h>
-#import "ENPublicBgView.h"
 #import "ENMediatorViewController.h"
 #import "ENShowTabBar.h"
 #import "ENBaseViewController.h"
