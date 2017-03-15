@@ -39,7 +39,10 @@
     dataTask = [self.mgr GET:url parameters:param progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary* responseObject) {
         //写入文件
         if (cacheTime > 0) {
-            [cacheManager saveCacheData:responseObject];
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [cacheManager saveCacheData:responseObject];
+            });
         }
         success ? success(responseObject) : nil;
         
@@ -83,9 +86,9 @@
     //2.发送Post请求
     dataTask = [self.mgr POST:url parameters:param progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary* responseObject) {
         //写入文件
-        if (cacheTime > 0) {
+        dispatch_async(dispatch_get_main_queue(), ^{
             [cacheManager saveCacheData:responseObject];
-        }
+        });
         success ? success(responseObject) : nil;
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
